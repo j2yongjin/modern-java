@@ -12,8 +12,11 @@ public class MethodReferenceMain {
         lists.forEach(System.out::println);
 
         lists.forEach(MethodReferenceTypeOne::staticPrint);  // static
-//        lists.forEach(this::equals);
+//        lists.forEach(this::equals);\
+        
     }
+
+
 
 }
 

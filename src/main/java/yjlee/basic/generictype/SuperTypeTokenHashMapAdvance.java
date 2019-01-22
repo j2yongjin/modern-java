@@ -1,5 +1,7 @@
 package yjlee.basic.generictype;
 
+import org.springframework.core.ResolvableType;
+
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
 import java.util.Arrays;
@@ -54,6 +56,12 @@ public class SuperTypeTokenHashMapAdvance {
         System.out.println(map.get(new SuperTypeTokenHashMap.TypeReference<List<Integer>>(){}));
         System.out.println(map.get(new SuperTypeTokenHashMap.TypeReference<List<String>>(){}));
 
+        //
+        System.out.println(new SuperTypeTokenHashMap.TypeReference<List<String>>(){}.type);
+
+        // spring 4에 구현됨
+        ResolvableType rt = ResolvableType.forInstance(new TypeReference<List<String>>(){});
+        System.out.println(rt.getSuperType().getGeneric(0).getNested(2).getType());
 
 
     }
