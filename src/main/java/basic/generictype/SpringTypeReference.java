@@ -1,4 +1,4 @@
-package yjlee.basic.generictype;
+package basic.generictype;
 
 import org.springframework.core.ParameterizedTypeReference;
 

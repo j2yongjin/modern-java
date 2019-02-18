@@ -1,4 +1,4 @@
-package yjlee.basic.dynamicdispatch;
+package basic.dynamicdispatch;
 
 import java.util.Arrays;
 import java.util.List;
