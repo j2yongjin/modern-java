@@ -1,4 +1,4 @@
-package modernjava.Functional;
+package modernjava.functional;
 
 import java.util.Map;
 import java.util.function.DoubleUnaryOperator;
@@ -15,9 +15,6 @@ public class Curring {
         System.out.println(" result : " +
             convertUsdToGbp.applyAsDouble(1000)
         );
-
-
-
 
     }
 
