@@ -1,4 +1,4 @@
-package modernjava.CompleteableFuture.example;
+package modernjava.completeablefuture.example;
 
 import java.util.Arrays;
 import java.util.List;

@@ -1,14 +1,11 @@
-package modernjava.CompleteableFuture.example;
+package modernjava.completeablefuture.example;
 
-import javax.sound.midi.Soundbank;
-import java.awt.*;
 import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadFactory;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 /**

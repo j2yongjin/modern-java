@@ -1,4 +1,4 @@
-package modernjava.CompleteableFuture.example;
+package modernjava.completeablefuture.example;
 
 /**
  * Created by yjlee on 2019-01-27.

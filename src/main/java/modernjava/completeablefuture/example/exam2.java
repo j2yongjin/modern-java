@@ -1,4 +1,4 @@
-package modernjava.CompleteableFuture.example;
+package modernjava.completeablefuture.example;
 
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;

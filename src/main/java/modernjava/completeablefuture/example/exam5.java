@@ -1,11 +1,7 @@
-package modernjava.CompleteableFuture.example;
+package modernjava.completeablefuture.example;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.Executors;
-import java.util.concurrent.Future;
-import java.util.stream.Collectors;
 
 /**
  * Created by yjlee on 2019-01-27.

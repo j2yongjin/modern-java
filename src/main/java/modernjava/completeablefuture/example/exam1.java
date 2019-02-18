@@ -1,7 +1,6 @@
-package modernjava.CompleteableFuture.example;
+package modernjava.completeablefuture.example;
 
 import java.util.concurrent.*;
-import java.util.function.DoubleToLongFunction;
 
 /**
  * Created by yjlee on 2019-01-27.
