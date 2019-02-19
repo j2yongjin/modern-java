@@ -29,14 +29,6 @@ public class Exam3 {
                 .limit(n);
     }
 
-//    public static IntStream getPrimes(IntStream numbers){
-//        int head = head(numbers);
-//        return IntStream.concat(
-//                IntStream.of(head)
-//                ,primes(tail(numbers).filter(n -> n % head !=0))
-//        );
-//    }
-
     static IntStream numbers(){
         return IntStream.iterate(2 , n -> n+1);
     }
@@ -49,8 +41,6 @@ public class Exam3 {
         return numbers.skip(1);
     }
 
-
-
     static class MyMathUtils {
         public static boolean isPrime(int candidate){
             int candidateRoot = (int) Math.sqrt(candidate);
@@ -58,6 +48,5 @@ public class Exam3 {
                     .noneMatch(i -> candidate %i == 0);
         }
     }
-
 
 }

@@ -15,8 +15,6 @@ public class Exam4 {
         MyList<Integer> list =
                 new MyLinkedList<>(5, new MyLinkedList<>(10, new Empty<>() ) );
 
-
-
         LazyList<Integer> numbers = from(2);
         int two = numbers.head();
         int three = numbers.tail().head();
